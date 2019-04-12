@@ -27,7 +27,7 @@ Button btnImplicit;
         });
 
         btnImplicit = findViewById(R.id.btn_imp);
-        btnExplicit.setOnClickListener(new View.OnClickListener() {
+        btnImplicit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String phoneNumber = "081234567891";
